@@ -1,0 +1,21 @@
+
+    /* Clase para una caja con posición relativa */
+    .relative-box {
+        /* Establece la posición relativa */
+        position: relative;
+        
+        /* Desplaza la caja 20px hacia abajo desde su posición original */
+        top: 20px;
+        
+        /* Desplaza la caja 30px hacia la derecha desde su posición original */
+        left: 30px;
+        
+        /* Define el ancho de la caja en 200px */
+        width: 200px;
+        
+        /* Define la altura de la caja en 100px */
+        height: 100px;
+        
+        /* Establece el color de fondo de la caja a verde claro */
+        background-color: lightgreen;
+    }

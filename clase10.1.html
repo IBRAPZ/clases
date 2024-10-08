@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu para Veterinaria</title>
+    <style>
+        .sticky-box {
+            position: -webkit-sticky; /* Para Safari */
+            position: sticky;
+            top: 0;
+            width: 100%;
+            height: 50px;
+            background-color: rgb(245, 0, 0);
+            z-index: 1000; 
+        }
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+        li {
+            float: left;
+        }
+        li a {
+            display: block;
+            color: rgb(255, 255, 255);
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        li a:hover {
+            background-color: #111;
+        }
+        h1, h2 {
+            text-align: center;
+        }
+        #servicios, #mascotas, #contacto {
+            background-color: #f1f1f1;
+            padding: 20px;
+            margin: 20px 0; /* Añadir un margen para que se vea el sticky */
+        }
+    </style>
+</head>
+<body>
+    <h1>Veterinaria</h1>
+    
+    <div class="sticky-box">
+        <ul>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#mascotas">Mascotas</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </div>
+    
+    <h2 id="servicios">Servicios</h2>
+    <p>Contenido de servicios</p>
+    
+    <h2 id="mascotas">Mascotas</h2>
+    <p>Contenido de mascotas</p>
+    
+    <h2 id="contacto">Contacto</h2>
+    <p>Contenido de contacto</p>
+
+</body>
+</html>
